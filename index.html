@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>La Casa del Sabor</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Caja 1: Encabezado con dos cajas pequeñas + caja grande con imagen de fondo y texto encima -->
+  <header class="header">
+    <div class="top-bar">
+      <div class="logo-box">
+        La Casa del Sabor
+      </div>
+      <nav class="menu-box">
+        <a href="#">Inicio</a>
+        <a href="#">Menú</a>
+        <a href="#">Reservas</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </div>
+
+    <div class="hero-image">
+      <!-- Aquí colocarás tu imagen -->
+      <img src="logo restautante.jpg" alt="Imagen principal del restaurante" />
+      <div class="hero-text">
+        <h1>Bienvenido a La Casa del Sabor</h1>
+        <h2>Sabores auténticos que conquistan tu paladar</h2>
+        <button>Reserva ya</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Caja 2: Servicios y Noticias -->
+  <section class="servicios-noticias">
+    <div class="servicios">
+      <h2>Nuestros Servicios</h2>
+      <h3>Gastronomía de calidad</h3>
+      <div class="servicio-descripcion">
+        <img src="chef.jpg" alt="Servicio" />
+        <p><strong>Comida a la carta:</strong> Disfruta de platos preparados al momento con ingredientes frescos y variados para todos los gustos.</p>
+      </div>
+    </div>
+    <div class="noticias">
+      <h2>Noticias</h2>
+      <div class="noticia">
+        <img src="ceviche.jpg" alt="Noticia 1" />
+        <p><strong>Nueva carta de temporada</strong><br />Descubre los nuevos sabores de otoño con platos inspirados en productos locales.</p>
+      </div>
+      <div class="noticia">
+        <img src="ensalada.jpg" alt="Noticia 2" />
+        <p><strong>¡Cumplimos 5 años!</strong><br />Acompáñanos este fin de semana y celebra con nosotros nuestro aniversario con música y promociones.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Caja 3: Tabla + Mapa y Contacto -->
+  <section class="tabla-contacto">
+    <div class="tabla">
+      <h2>Platos Destacados</h2>
+      <table>
+        <tr><th>Entrada</th><th>Plato Fuerte</th><th>Postre</th><th>Bebida</th><th>Precio</th></tr>
+        <tr><td>Ensalada César</td><td>Lomo Saltado</td><td>Tarta de Queso</td><td>Jugo Natural</td><td>S/ 45.00</td></tr>
+        <tr><td>Sopa Criolla</td><td>Ají de Gallina</td><td>Helado Artesanal</td><td>Chicha Morada</td><td>S/ 42.00</td></tr>
+        <tr><td>Anticuchos</td><td>Arroz con Mariscos</td><td>Suspiro Limeño</td><td>Limonada</td><td>S/ 48.00</td></tr>
+      </table>
+      <h3>Síguenos en redes</h3>
+      <div class="redes-sociales">
+        <img src="https://img.icons8.com/color/48/instagram-new.png" alt="Instagram" />
+        <img src="https://img.icons8.com/color/48/youtube-play.png" alt="YouTube" />
+        <img src="https://img.icons8.com/color/48/facebook-new.png" alt="Facebook" />
+        <img src="https://img.icons8.com/color/48/whatsapp.png" alt="WhatsApp" />
+      </div>
+    </div>
+    <div class="mapa-contacto">
+      <h3>Ubícanos</h3>
+      <p>Nos encontramos en el corazón de Lima. Visítanos para vivir una experiencia culinaria inolvidable.</p>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.855128021863!2d-77.04279318472328!3d-12.046374191353162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8c72a87af0d%3A0x4d4e4f3f99a74ffb!2sLima%2C%20Per%C3%BA!5e0!3m2!1ses-419!2sus!4v1685364428605!5m2!1ses-419!2sus" 
+        width="100%" 
+        height="200" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <form>
+        <input type="text" placeholder="Nombre" />
+        <input type="email" placeholder="Correo electrónico" />
+        <input type="text" placeholder="Asunto" />
+        <textarea placeholder="Mensaje"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Caja 4: Pie de página -->
+  <footer class="footer">
+    <nav class="footer-menu">
+      <div>
+        <h4>La Casa del Sabor</h4>
+        <a href="#">Nuestra Historia</a>
+        <a href="#">Valores</a>
+        <a href="#">Galería</a>
+      </div>
+      <div>
+        <h4>Servicios</h4>
+        <a href="#">Pedidos Online</a>
+        <a href="#">Catering</a>
+        <a href="#">Eventos Privados</a>
+      </div>
+      <div>
+        <h4>Menú</h4>
+        <a href="#">Platos Típicos</a>
+        <a href="#">Postres</a>
+        <a href="#">Bebidas</a>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <a href="#">Reservas</a>
+        <a href="#">Atención al Cliente</a>
+        <a href="#">Ubicación</a>
+      </div>
+    </nav>
+    <p>© La Casa del Sabor 2025. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
