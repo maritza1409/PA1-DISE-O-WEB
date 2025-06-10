@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto - Viaja Perú</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Contacto</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="destinos.html">Destinos</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <form>
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" required>
+    <label for="destino">Destino favorito:</label>
+    <select id="destino" name="destino">
+      <option value="machu">Machu Picchu</option>
+      <option value="paracas">Paracas</option>
+    </select>
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje"></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
